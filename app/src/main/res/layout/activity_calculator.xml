@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Calculator App"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:id="@+id/et_frist_no"
+    android:inputType="numberDecimal"
+    android:hint="Enter First Number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/et_second_no"
+        android:inputType="numberDecimal"
+        android:hint="Enter Second Number"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="+" android:id="@+id/btn_add"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="-" android:id="@+id/btn_sub"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:text="x" android:id="@+id/btn_mul"/>
+        <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:text="/" android:id="@+id/btn_div"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:text="%" android:id="@+id/btn_mod"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/tv_result"/>
+
+</LinearLayout>
